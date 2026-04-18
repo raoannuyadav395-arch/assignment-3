@@ -1,0 +1,19 @@
+=== SORTING PERFORMANCE ANALYZER (SPA) ===
+
+[TASK 1: CORRECTNESS CHECK]
+Testing with: [5, 2, 9, 1, 5, 6]
+Insertion Sort Correct: True
+Merge Sort Correct: True
+Quick Sort Correct: True
+
+[TASK 2: DATASET GENERATION & PERFORMANCE MEASUREMENT]
+Size    | Data Type       | Insertion (ms)  | Merge (ms)   | Quick (ms)
+-------------------------------------------------------------------------
+1000    | Random          | 17.87           | 1.25         | 1.55        
+      | 5.51
+5000    | Reverse         | 1320.58         | 23.59        | 11.96
+10000   | Random          | 3118.01         | 17.00        | 18.16
+10000   | Sorted          | 0.92            | 28.32        | 26.98
+10000   | Reverse         | 6981.98         | 49.51        | 36.92
+
+[TASK 3: EXPERIMENTS COMPLETE]
